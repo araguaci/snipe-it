@@ -55,7 +55,7 @@
 
   &.btn-primary, .btn-primary:link {
     background-color: var(--button-default);
-    border-color: var(--button-default);
+    border-color: #000000;
     color: #545454;
   }
 
@@ -78,7 +78,9 @@
 a.actions {
   color:#fff !important;
 }
-
+a:visited.label-default, a:link.label-default{
+  color:#444;
+}
 /**
 The dropdown is white, so use a darker color
  */
@@ -158,9 +160,6 @@ h2.task_menu{
   background: -webkit-linear-gradient(top,  var(--header) 0%,var(--header) 100%);
   background: linear-gradient(to bottom, var(--header) 0%,var(--header) 100%);
   border-color: var(--header);
-}
-.label-default{
-  background-color:var(--back-sub);
 }
 a.btn.btn-default{
   color:var(--nav-link);
@@ -356,8 +355,11 @@ input[type=text], input[type=search] {
 .skin-yellow-dark .main-header .navbar .dropdown-menu li a {
   color: var(--header);
 }
+.skin-yellow-dark .main-header .navbar .dropdown-menu li a:hover {
+  background-color: #000000;
+}
 tr th div.th-inner {
-  color:var(--text-main);
+  color: #FFFFFF;
 }
 .tab-content, .tab-pane {
   background-color: var(--back-main);
@@ -416,4 +418,7 @@ tr th div.th-inner {
 
 .search-highlight, .search-highlight:hover {
   background-color: #e9d15b;
+}
+.table > tbody > tr.warning > td{
+  background-color:var(--back-sub);
 }
