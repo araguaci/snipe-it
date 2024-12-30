@@ -280,6 +280,8 @@ return [
     'two_factor_enrollment_text'	=> "Este necesară autentificarea cu două factori, cu toate acestea, dispozitivul dvs. nu a fost încă înscris. Deschideți aplicația Google Authenticator și scanați codul QR de mai jos pentru a vă înregistra dispozitivul. După ce ați înscris dispozitivul, introduceți codul de mai jos",
     'require_accept_signature'      => 'Solicită semnătura',
     'require_accept_signature_help_text'      => 'Activarea acestei funcții va impune utilizatorilor să se deconecteze fizic la acceptarea unui activ.',
+    'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
+    'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
     'left'        => 'stânga',
     'right'        => 'dreapta',
     'top'        => 'top',
@@ -385,5 +387,6 @@ return [
     'restore_default_avatar_help' => '',
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
+    'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
 
 ];

@@ -280,6 +280,8 @@ return [
     'two_factor_enrollment_text'	=> "Twee factor authenticatie is vereist, echter is je apparaat nog niet geactiveerd. Open je Google Authenticator app en scan de onderstaande QR code om je apparaat te activeren. Vul wanneer je het apparaat succesvol hebt geactiveerd hieronder de code in",
     'require_accept_signature'      => 'Handtekening vereisen',
     'require_accept_signature_help_text'      => 'Het inschakelen van deze functie vereist dat gebruikers fysiek ondertekenen bij het accepteren van een asset.',
+    'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
+    'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
     'left'        => 'links',
     'right'        => 'rechts',
     'top'        => 'bovenkant',
@@ -385,5 +387,6 @@ return [
     'restore_default_avatar_help' => '',
     'due_checkin_days' => 'Waarschuwing voor aankomende Checkin',
     'due_checkin_days_help' => 'Hoeveel dagen vóór de verwachte check-in van een product moet het worden weergegeven op de pagina "Waarschuwing voor aankomende Check-in"?',
+    'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
 
 ];

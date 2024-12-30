@@ -280,6 +280,8 @@ return [
     'two_factor_enrollment_text'	=> "Απαιτείται έλεγχος ταυτότητας δύο παραγόντων, ωστόσο η συσκευή σας δεν έχει εγγραφεί ακόμα. Ανοίξτε την εφαρμογή Google Authenticator και σαρώστε τον παρακάτω κωδικό QR για να εγγραφείτε στη συσκευή σας. Μόλις εγγραφείτε στη συσκευή σας, πληκτρολογήστε τον παρακάτω κώδικα",
     'require_accept_signature'      => 'Απαιτείται υπογραφή',
     'require_accept_signature_help_text'      => 'Η ενεργοποίηση αυτής της λειτουργίας θα απαιτεί από τους χρήστες να αποδεχθούν φυσικά την αποδοχή ενός στοιχείου.',
+    'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
+    'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
     'left'        => 'αριστερά',
     'right'        => 'δεξιά',
     'top'        => 'κορυφή',
@@ -385,5 +387,6 @@ return [
     'restore_default_avatar_help' => '',
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
+    'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
 
 ];

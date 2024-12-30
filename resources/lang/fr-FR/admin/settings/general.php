@@ -280,6 +280,8 @@ return [
     'two_factor_enrollment_text'	=> "L’authentification à deux facteurs est nécessaire, mais votre appareil n’a pas encore été inscrit. Ouvrez votre application Google Authenticator et scanner le code QR ci-dessous pour inscrire votre appareil. Une fois que vous avez inscrit votre appareil, saisissez le code ci-dessous",
     'require_accept_signature'      => 'Exiger la signature',
     'require_accept_signature_help_text'      => 'L\'activation de cette fonctionnalité nécessite que les utilisateurs signent physiquement l\'acceptation de cet actif.',
+    'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
+    'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
     'left'        => 'gauche',
     'right'        => 'droite',
     'top'        => 'haut',
@@ -385,5 +387,6 @@ return [
     'restore_default_avatar_help' => '',
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
+    'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
 
 ];

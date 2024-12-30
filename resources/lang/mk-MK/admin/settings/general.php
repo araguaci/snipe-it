@@ -280,6 +280,8 @@ return [
     'two_factor_enrollment_text'	=> "Потребна е автентикација на два фактор, но вашиот уред сè уште не е запишан. Отворете Google Authenticator апликација и скенирајте го QR кодот подолу за да го запишете вашиот уред. Откако ќе го запишате вашиот уред, внесете го кодот подолу",
     'require_accept_signature'      => 'Потребен потпис',
     'require_accept_signature_help_text'      => 'Овозможувањето на оваа функција ќе бара од корисниците физички да се пријават за прифаќање на средства.',
+    'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
+    'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
     'left'        => 'лево',
     'right'        => 'десно',
     'top'        => 'врв',
@@ -385,5 +387,6 @@ return [
     'restore_default_avatar_help' => '',
     'due_checkin_days' => 'Предупредување дека е враме за раздолжување',
     'due_checkin_days_help' => 'Колку дена пред очекуваното раздолжување на средството треба да биде наведено на страницата „Време е за раздолжување“?',
+    'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
 
 ];

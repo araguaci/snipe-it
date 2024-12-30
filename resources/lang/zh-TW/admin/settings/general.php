@@ -281,6 +281,8 @@ return [
     'two_factor_enrollment_text'	=> "雙因素認證是必要的，無論您是否已登記行動裝置。開啟您的 Google Authenticator app 並且掃描下方的 QR Code 以登記雙因素認證。當您已登記您的裝置，請在下方輸入認證代碼",
     'require_accept_signature'      => '需要簽名',
     'require_accept_signature_help_text'      => '啟用此功能將需要使用者親自簽名來接受一項資產。',
+    'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
+    'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
     'left'        => '左',
     'right'        => '右',
     'top'        => '頂部',
@@ -386,5 +388,6 @@ return [
     'restore_default_avatar_help' => '',
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
+    'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
 
 ];

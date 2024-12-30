@@ -280,6 +280,8 @@ return [
     'two_factor_enrollment_text'	=> "Dua faktor pengesahan diperlukan, namun peranti anda belum lagi mendaftar. Buka apl Google Authenticator anda dan imbas kod QR di bawah untuk mendaftarkan peranti anda. Sebaik sahaja anda telah mendaftarkan peranti anda, masukkan kod di bawah",
     'require_accept_signature'      => 'Memerlukan Tandatangan',
     'require_accept_signature_help_text'      => 'Mengaktifkan ciri ini akan menghendaki pengguna menandatangani secara fizikal apabila menerima aset.',
+    'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
+    'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
     'left'        => 'dibiarkan',
     'right'        => 'betul',
     'top'        => 'atas',
@@ -385,5 +387,6 @@ return [
     'restore_default_avatar_help' => '',
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
+    'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
 
 ];

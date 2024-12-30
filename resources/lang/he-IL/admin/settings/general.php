@@ -280,6 +280,8 @@ return [
     'two_factor_enrollment_text'	=> "יש צורך באימות שני גורמים, אך המכשיר עדיין לא נרשם. פתח את אפליקציית המאמת של Google וסרוק את קוד QR שלהלן כדי לרשום את המכשיר שלך. לאחר שתירשם את המכשיר, הזן את הקוד הבא",
     'require_accept_signature'      => 'דרוש חתימה',
     'require_accept_signature_help_text'      => 'הפעלת תכונה זו תדרוש ממשתמשים להיכנס פיזית בעת קבלת נכס.',
+    'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
+    'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
     'left'        => 'שמאלה',
     'right'        => 'ימין',
     'top'        => 'חלק עליון',
@@ -385,5 +387,6 @@ return [
     'restore_default_avatar_help' => '',
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
+    'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
 
 ];

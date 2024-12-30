@@ -280,6 +280,8 @@ return [
     'two_factor_enrollment_text'	=> "E rua nga tohu motuhake e hiahiatia ana, ahakoa kuaore i whakauruhia to whakaaro. Whakatūwherahia tō taupānga Authenticator Google me te matawai i te waehere QR i raro nei hei whakauru i tō pūrere. I te wa i whakauruhia e koe to whakaaro, uruhia te waehere i raro nei",
     'require_accept_signature'      => 'Me tono Waitohu',
     'require_accept_signature_help_text'      => 'Ma te whakahoahoa i tenei ahua ka hiahia nga kaiwhakamahi ki te waitohu i te waahi ki te whakaae i tetahi taonga.',
+    'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
+    'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
     'left'        => 'maui',
     'right'        => 'tika',
     'top'        => 'runga',
@@ -385,5 +387,6 @@ return [
     'restore_default_avatar_help' => '',
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
+    'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
 
 ];

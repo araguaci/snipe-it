@@ -280,6 +280,8 @@ return [
     'two_factor_enrollment_text'	=> "Требуется двухфакторная аутентификация, однако ваше устройство еще не зарегистрировано. Откройте приложение Google Authenticator и отсканируйте QR-код ниже, чтобы зарегистрировать свое устройство. После того, как вы зарегистрируете свое устройство, введите приведенный ниже код",
     'require_accept_signature'      => 'Требуется подпись',
     'require_accept_signature_help_text'      => 'Включение этой функции потребует от пользователей физического выхода из системы при принятии актива.',
+    'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
+    'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
     'left'        => 'слева',
     'right'        => 'справа',
     'top'        => 'сверху',
@@ -385,5 +387,6 @@ return [
     'restore_default_avatar_help' => '',
     'due_checkin_days' => 'Предупреждение о возврате',
     'due_checkin_days_help' => 'Сколько дней до ожидаемого возврата актива должно быть указано на странице «Подлежит возврату»?',
+    'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
 
 ];

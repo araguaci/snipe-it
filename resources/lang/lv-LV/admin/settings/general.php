@@ -280,6 +280,8 @@ return [
     'two_factor_enrollment_text'	=> "Nepieciešama divu faktoru autentifikācija, tomēr jūsu ierīce vēl nav reģistrēta. Atveriet savu lietotni Google autentifikators un skenējiet zemāk redzamo QR kodu, lai reģistrētu savu ierīci. Kad esat reģistrējies savā ierīcē, ievadiet zemāk redzamo kodu",
     'require_accept_signature'      => 'Pieprasīt parakstu',
     'require_accept_signature_help_text'      => 'Iespējojot šo funkciju, lietotājiem būs jāpiesaista aktīva pieņemšana.',
+    'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
+    'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
     'left'        => 'pa kreisi',
     'right'        => 'pa labi',
     'top'        => 'tops',
@@ -385,5 +387,6 @@ return [
     'restore_default_avatar_help' => '',
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
+    'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
 
 ];

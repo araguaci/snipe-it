@@ -280,6 +280,8 @@ return [
     'two_factor_enrollment_text'	=> "Je vyžadováno dvoufaktorové ověření, nicméně vaše zařízení ještě nebylo zaregistrováno. Otevřete aplikaci Google Authenticator a oskenujte níže uvedený QR kód pro registraci vašeho zařízení. Jakmile zaregistrujete své zařízení, zadejte níže uvedený kód",
     'require_accept_signature'      => 'Požadovat podpis',
     'require_accept_signature_help_text'      => 'Aktivace této funkce bude vyžadovat, aby se uživatelé fyzicky přihlásili k přijetí určitého materiálu.',
+    'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
+    'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
     'left'        => 'vlevo',
     'right'        => 'vpravo',
     'top'        => 'nahoře',
@@ -385,5 +387,6 @@ return [
     'restore_default_avatar_help' => '',
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
+    'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
 
 ];

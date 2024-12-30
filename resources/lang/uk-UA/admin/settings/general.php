@@ -280,6 +280,8 @@ return [
     'two_factor_enrollment_text'	=> "Для двофакторної автентифікації необхідно, однак ваш пристрій ще не було встановлено. Відкрийте додаток Google Authenticator і відскануйте QR-код нижче, щоб закріпити ваш пристрій. Після того, як ви увійдете на своєму пристрої, введіть код нижче",
     'require_accept_signature'      => 'Вимагати підпис',
     'require_accept_signature_help_text'      => 'Увімкнення цієї функції для фізичного підписання активів потребує від користувачів.',
+    'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
+    'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
     'left'        => 'ліворуч',
     'right'        => 'правий',
     'top'        => 'згори',
@@ -380,10 +382,11 @@ return [
     'profile_edit'          => 'Edit Profile',
     'profile_edit_help'          => 'Allow users to edit their own profiles.',
     'default_avatar' => 'Upload custom default avatar',
-    'default_avatar_help' => 'This image will be displayed as a profile if a user does not have a profile photo.',
+    'default_avatar_help' => 'Це зображення буде показано в профіль, якщо у користувача немає профілю.',
     'restore_default_avatar' => 'Restore <a href=":default_avatar" data-toggle="lightbox" data-type="image">original system default avatar</a>',
     'restore_default_avatar_help' => '',
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
+    'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
 
 ];

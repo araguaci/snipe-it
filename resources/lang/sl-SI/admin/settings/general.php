@@ -280,6 +280,8 @@ return [
     'two_factor_enrollment_text'	=> "Zahtevano je dvo-stopenjsko preverjanje pristnosti, vendar vaša naprava še ni bila včlanjena. Odprite aplikacijo Google Authenticator in si oglejte spodnjo kodo QR, če želite vnesti svojo napravo. Ko vnesete napravo, vnesite spodnjo kodo",
     'require_accept_signature'      => 'Zahtevaj podpis',
     'require_accept_signature_help_text'      => 'Če omogočite to funkcijo, se bodo uporabniki morali fizično odjaviti ob sprejemu sredstva.',
+    'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
+    'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
     'left'        => 'levo',
     'right'        => 'desno',
     'top'        => 'na vrh',
@@ -385,5 +387,6 @@ return [
     'restore_default_avatar_help' => '',
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
+    'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
 
 ];

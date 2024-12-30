@@ -280,6 +280,8 @@ return [
     'two_factor_enrollment_text'	=> "Yêu cầu xác thực hai yếu tố, tuy nhiên thiết bị của bạn chưa được đăng ký. Mở ứng dụng Google Authenticator của bạn và quét mã QR dưới đây để đăng ký thiết bị của bạn. Khi bạn đã đăng ký thiết bị của mình, hãy nhập mã dưới đây",
     'require_accept_signature'      => 'Yêu cầu Chữ ký',
     'require_accept_signature_help_text'      => 'Bật tính năng này sẽ yêu cầu người dùng đăng ký về việc chấp nhận nội dung.',
+    'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
+    'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
     'left'        => 'trái',
     'right'        => 'đúng',
     'top'        => 'hàng đầu',
@@ -385,5 +387,6 @@ return [
     'restore_default_avatar_help' => '',
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
+    'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
 
 ];

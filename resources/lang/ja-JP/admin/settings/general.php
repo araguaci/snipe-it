@@ -283,6 +283,8 @@ return [
     'two_factor_enrollment_text'	=> "二段階認証の登録が必要ですが、あなたのデバイスはまだ登録されていません。Google Authenticatorアプリを開き、下のQRコードをスキャンして端末を登録してください。端末を登録したら以下のコードを入力してください。",
     'require_accept_signature'      => 'シグネチャリクエスト',
     'require_accept_signature_help_text'      => 'この機能を有効にするには、ユーザーが資産を受け入れる際に物理的にサインオフする必要があります。',
+    'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
+    'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
     'left'        => '左',
     'right'        => '右',
     'top'        => '上',
@@ -388,5 +390,6 @@ return [
     'restore_default_avatar_help' => '',
     'due_checkin_days' => 'チェックイン期限の警告',
     'due_checkin_days_help' => 'アセットの期待されるチェックインの何日前に、「チェックイン期限」ページにリストされるべきですか?',
+    'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
 
 ];
